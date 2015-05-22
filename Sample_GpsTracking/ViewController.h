@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LocationShareModel.h"
+#import "LocationTracker.h"
 @interface ViewController : UIViewController
+{
+    
+}
 
+@property LocationTracker * locationTracker;
+@property (nonatomic) NSTimer* locationUpdateTimer;
+
+@property (strong,nonatomic) LocationShareModel * shareModel;
 
 @end
 
