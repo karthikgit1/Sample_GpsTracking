@@ -20,6 +20,7 @@
 		26A6BF0D1B0F370D00931F2B /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A6BF0A1B0F370D00931F2B /* LocationShareModel.m */; };
 		26A6BF0F1B0F373400931F2B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A6BF0E1B0F373400931F2B /* CoreGraphics.framework */; };
 		26A6BF111B0F373A00931F2B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A6BF101B0F373A00931F2B /* CoreLocation.framework */; };
+		26A6BF131B0F406C00931F2B /* SourceCode.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 26A6BF121B0F406C00931F2B /* SourceCode.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		26A6BF0A1B0F370D00931F2B /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
 		26A6BF0E1B0F373400931F2B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		26A6BF101B0F373A00931F2B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		26A6BF121B0F406C00931F2B /* SourceCode.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = SourceCode.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		26A6BED01B0F363300931F2B = {
 			isa = PBXGroup;
 			children = (
+				26A6BF121B0F406C00931F2B /* SourceCode.rtfd */,
 				26A6BF101B0F373A00931F2B /* CoreLocation.framework */,
 				26A6BF0E1B0F373400931F2B /* CoreGraphics.framework */,
 				26A6BEDB1B0F363300931F2B /* Sample_GpsTracking */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A6BEEB1B0F363300931F2B /* Main.storyboard in Resources */,
+				26A6BF131B0F406C00931F2B /* SourceCode.rtfd in Resources */,
 				26A6BEF01B0F363300931F2B /* LaunchScreen.xib in Resources */,
 				26A6BEED1B0F363300931F2B /* Images.xcassets in Resources */,
 			);
@@ -451,6 +455,7 @@
 				26A6BF011B0F363300931F2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26A6BF021B0F363300931F2B /* Build configuration list for PBXNativeTarget "Sample_GpsTrackingTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +464,7 @@
 				26A6BF041B0F363300931F2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
